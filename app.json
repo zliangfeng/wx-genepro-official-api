@@ -1,0 +1,15 @@
+{
+  "apps": [{
+    "name": "api@wx.jiyinhome.com",
+    "script": "./dist/start.js",
+    "node_args": "",
+    "autorestart": false,
+    "watch": true,
+    "exec_interpreter": "node",
+    "exec_mode": "fork",
+    "log_date_format": "YYYY - MM - DD HH: mm Z",
+    "env": {
+        "NODE_ENV": "production"
+    }
+  }]
+}
